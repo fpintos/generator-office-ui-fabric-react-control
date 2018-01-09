@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "Fabio Pintos",
+      "authorEmail": "fabio.pintos@outlook.com",
+      "authorUrl": "https://github.com/fpintos"
+    }
+  }
+}
