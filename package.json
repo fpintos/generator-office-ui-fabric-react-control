@@ -8,14 +8,9 @@
     "email": "fabio.pintos@outlook.com",
     "url": "https://github.com/fpintos"
   },
-  "files": [
-    "generators"
-  ],
+  "files": ["generators"],
   "main": "generators/index.js",
-  "keywords": [
-    "",
-    "yeoman-generator"
-  ],
+  "keywords": ["", "yeoman-generator"],
   "devDependencies": {
     "coveralls": "^2.13.3",
     "eslint": "^4.15.0",
@@ -44,20 +39,11 @@
     "test": "jest"
   },
   "lint-staged": {
-    "*.js": [
-      "eslint --fix",
-      "git add"
-    ],
-    "*.json": [
-      "prettier --write",
-      "git add"
-    ]
+    "*.js": ["eslint --fix", "git add"],
+    "*.json": ["prettier --write", "git add"]
   },
   "eslintConfig": {
-    "extends": [
-      "xo",
-      "prettier"
-    ],
+    "extends": ["xo", "prettier"],
     "env": {
       "jest": true,
       "node": true
@@ -71,10 +57,11 @@
         }
       ]
     },
-    "plugins": [
-      "prettier"
-    ]
+    "plugins": ["prettier"]
   },
-  "repository": "fpintos/generator-office-ui-fabric-react-control",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fpintos/generator-office-ui-fabric-react-control.git"
+  },
   "license": "MIT"
 }
